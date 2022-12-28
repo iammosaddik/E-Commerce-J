@@ -4,8 +4,6 @@ import 'package:iconly/iconly.dart';
 
 import 'UI Page/Home Page/home_page.dart';
 
-void main() => runApp(MaterialApp(home: BottomNavBar()));
-
 class BottomNavBar extends StatefulWidget {
   @override
   _BottomNavBarState createState() => _BottomNavBarState();
