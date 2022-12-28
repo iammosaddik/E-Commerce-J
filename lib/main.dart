@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jakir_ui/test.dart';
+import 'package:jakir_ui/UI%20Page/Sign%20In/sign_in_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Mosaddik Ali',
-      home: BottomNavBar(),
+      home: SignIn(),
     );
   }
 }
